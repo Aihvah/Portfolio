@@ -12,12 +12,10 @@ body {
     cursor: url('img/curseur.svg'), auto;
 }
 
-/* On change le curseur uniquement sur les éléments interactifs */
-a, button, .clickable {
+a, button, .navbar .clickable {
     cursor: url('img/curseurpoint.svg'), pointer;
 }
 
-/* Optionnel : Changement au moment du clic n'importe où sur la page */
 body:active {
     cursor: url('img/curseurpoint.svg'), auto;
 }
