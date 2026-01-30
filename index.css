@@ -9,11 +9,11 @@ body {
     font-size: 16px;
     line-height: 1.6;
     /* On définit le curseur par défaut partout */
-    cursor: url('img/curseur.svg'), auto;
+    cursor: url('./img/curseur.svg'), auto;
 }
 
 a, button, .navbar .clickable {
-    cursor: url('img/curseurpoint.svg'), pointer;
+    cursor: url('./img/curseurpoint.svg'), pointer;
 }
 
 body:active {
