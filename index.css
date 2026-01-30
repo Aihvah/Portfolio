@@ -8,18 +8,18 @@ body {
     padding: 0;
     font-size: 16px;
     line-height: 1.6;
-    cursor: url('mon-icone-personnalisee.png'), auto;
+    /* On définit le curseur par défaut partout */
+    cursor: url('img/curseur.svg'), auto;
 }
-.cursor {
-  width: 20px;
-  height: 20px;
-  border: 2px solid #3498db; 
-  border-radius: 50%; 
-  position: fixed;
-  pointer-events: none; 
-  transform: translate(-50%, -50%); 
-  transition: transform 0.1s ease-out; 
-  z-index: 9999;
+
+/* On change le curseur uniquement sur les éléments interactifs */
+a, button, .clickable {
+    cursor: url('img/curseurpoint.svg'), pointer;
+}
+
+/* Optionnel : Changement au moment du clic n'importe où sur la page */
+body:active {
+    cursor: url('img/curseurpoint.svg'), auto;
 }
 .title.minibio{
     color: #0051FF;
