@@ -17,7 +17,7 @@ a, button, .navbar .clickable {
 }
 
 body:active {
-    cursor: url('img/curseurpoint.svg'), auto;
+    cursor: url('./img/curseurpoint.svg'), auto;
 }
 .title.minibio{
     color: #0051FF;
