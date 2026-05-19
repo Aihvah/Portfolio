@@ -208,7 +208,29 @@
                             </div>
                         </div>
                     </div>
-
+                    <!-- Carte Projet : whatyouwant -->
+                    <div class="column is-one-third">
+                        <div class="card project-card" onclick="openModal('modal-iuticarte')" role="button" tabindex="0"
+                            aria-label="Voir le projet whatyouwant">
+                            <div class="card-image">
+                                <figure class="image">
+                                    <img src="img/whatyouwant.svg" alt="What You Want">
+                                </figure>
+                            </div>
+                            <div class="card-overlay">
+                                <h3 class="title is-4">What You Want</h3>
+                                <time class="subtitle is-7">Mai 2026</time>
+                                <div class="content">
+                                    <div class="tags">
+                                        <span class="project-card-tag"><i class="fa-solid fa-palette"></i>
+                                            Graphisme</span>
+                                    </div>
+                                </div>
+                                <span class="project-see-more"><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    Voir plus</span>
+                            </div>
+                        </div>
+                    </div>
 
                     <!-- Carte Projet : Locfit -->
                     <div class="column is-one-third">
@@ -234,29 +256,7 @@
                         </div>
                     </div>
 
-                    <!-- Carte Projet : IUT'icarte -->
-                    <div class="column is-one-third">
-                        <div class="card project-card" onclick="openModal('modal-iuticarte')" role="button" tabindex="0"
-                            aria-label="Voir le projet IUT'icarte">
-                            <div class="card-image">
-                                <figure class="image">
-                                    <img src="img/iuticarte.svg" alt="IUT'icarte">
-                                </figure>
-                            </div>
-                            <div class="card-overlay">
-                                <h3 class="title is-4">IUT'icarte</h3>
-                                <time class="subtitle is-7">Oct - Déc 2024</time>
-                                <div class="content">
-                                    <div class="tags">
-                                        <span class="project-card-tag"><i class="fa-solid fa-leaf"></i> ODD &
-                                            Design</span>
-                                    </div>
-                                </div>
-                                <span class="project-see-more"><i class="fa-solid fa-arrow-up-right-from-square"></i>
-                                    Voir plus</span>
-                            </div>
-                        </div>
-                    </div>
+
 
 
 
@@ -883,32 +883,29 @@
         </div>
     </div>
 
-    <!-- Modale : IUT'icarte -->
+    <!-- Modale : whatyouwant -->
     <div class="project-modal-overlay" id="modal-iuticarte" onclick="closeModalOnOverlay(event, this)" role="dialog"
         aria-modal="true" aria-labelledby="modal-iuticarte-title">
         <div class="project-modal">
             <button class="modal-close-btn" onclick="closeModal('modal-iuticarte')" aria-label="Fermer"><i
                     class="fa-solid fa-xmark"></i></button>
             <div class="modal-hero">
-                <img src="img/iuticarte.svg" alt="IUT'icarte" class="modal-hero-img">
+                <img src="img/whatyouwantprez.svg" alt="what you want" class="modal-hero-img">
                 <div class="modal-hero-overlay">
-                    <span class="modal-category-badge"><i class="fa-solid fa-leaf"></i> ODD & Design</span>
+                    <span class="modal-category-badge"><i class="fa-solid fa-palette"></i> Graphisme</span>
                 </div>
             </div>
             <div class="modal-body">
                 <div class="modal-meta">
-                    <span class="modal-date"><i class="fa-regular fa-calendar"></i> Oct – Déc 2024</span>
-                    <span class="modal-type">Projet BUT MMI</span>
+                    <span class="modal-date"><i class="fa-regular fa-calendar"></i> Mai 2026</span>
+                    <span class="modal-type">Projet personnel</span>
                 </div>
-                <h2 class="modal-title" id="modal-iuticarte-title">IUT'icarte</h2>
-                <p class="modal-description">Application de cartographie conçue dans le cadre de l'Objectif de
-                    Développement Durable n°2 « Zéro Faim ». Le projet inclut un cahier des charges complet, des
-                    maquettes Figma et une réflexion UX centrée sur l'accessibilité alimentaire autour de l'IUT.</p>
+                <h2 class="modal-title" id="modal-whatyouwant-title">What You Want</h2>
+                <p class="modal-description">Projet personnel de graphisme dans lequel
+                    j'ai refait la cover de What you want de Angèle (ft. Justice) à ma façon.</p>
                 <div class="modal-tags-section">
                     <span class="modal-tag"><i class="fa-brands fa-figma"></i> Figma</span>
-                    <span class="modal-tag">🌍 ODD</span>
-                    <span class="modal-tag">📋 Cahier des charges</span>
-                    <span class="modal-tag">🗺️ Carto</span>
+                    <span class="modal-tag"><i class="fa-solid fa-file-image"></i> Photoshop</span>
                 </div>
             </div>
         </div>
@@ -991,7 +988,7 @@
             <div class="modal-body">
                 <div class="modal-meta">
                     <span class="modal-date"><i class="fa-regular fa-calendar"></i> Oct – Déc 2024</span>
-                    <span class="modal-type">Projet BUT MMI</span>
+                    <span class="modal-type">Stage</span>
                 </div>
                 <h2 class="modal-title" id="modal-saria-title">SARIA</h2>
                 <p class="modal-description">Affiches, kakémono ou encore post LinkedIn réalisés dans le cadre de mon
